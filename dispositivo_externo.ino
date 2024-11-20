@@ -15,11 +15,11 @@ DHTesp dhtSensor;
 LiquidCrystal_I2C lcd(I2C_ADDR, LCD_COLUMNS, LCD_LINES);
 
 // Credenciales WiFi y MQTT
-const char* ssid = "LUBIGARF";
-const char* password = "CABO.16@DAKOTA";
+const char* ssid = "****";
+const char* password = "****";
 const char* mqtt_server = "homeassistant.local";
-const char* mqtt_user = "monitoreoMQTT";
-const char* mqtt_password = "OLIVER.22";
+const char* mqtt_user = "*****";
+const char* mqtt_password = "*******";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
